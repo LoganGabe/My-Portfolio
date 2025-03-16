@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Logan Projects</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+        <div id="stars"></div>
+        <div class="particles"></div>
+        <nav class="navigation">
+            <ul class="menu">
+                <li>
+                    <a href="#home" class="menu-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about-me" class="menu-link">About me</a>
+                </li>
+                <li>
+                    <a href="#projects" class="menu-link">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="menu-link">Contact me</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main id="home" class="header">
+            <img src="./img/Logan.webp" alt="Logan's face" class="profile-picture">
+            <h1>Logan Projects</h1>
+            <p class="header-subtitle">WEB and Unity developer</p>
+        </main>
+
+        <section id="about-me" class="about-me">
+            <h2 class="about-me-title">About me</h2>
+            <div class="about-me-div">
+                <p class="about-me-paragraph">
+                    Hello, it's a pleasure to meet you! My name is Gabriel Logan...
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="photos">
+            <h2 class="photos-main-title">My Projects</h2>
+
+            <a href="https://logloguito.itch.io/special-animal-forces" target="_blank">
+                <div class="photos-div">
+                <div class="photos-card">
+                    <img src="./img/Special_Animal_Forces.webp" alt="Special Animal Forces game" class="photos-img">
+                    <div class="photos-text-div">
+                        <h3 class="photos-title">S.A.F.</h3>
+                        <p class="photos-paragraph">Something</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://logloguito.itch.io/rungeons-goblins" target="_blank">
+                <div class="photos-card">
+                    <img src="./img/Rungeons_And_Goblins.webp" alt="Rungeons & Goblins game" class="photos-img">
+                    <div class="photos-text-div">
+                        <h3 class="photos-title">Rungeons & Goblins</h3>
+                        <p class="photos-paragraph">Something</p>
+                    </div>
+                </div>
+            </a>
+            
+        </section>
+
+        <section id="contact" class="contact">
+            <h1 class="contact-title">Contact me</h1>
+
+            <form action="" class="form-contact" id="form" onSubmit="openWhatsapp(event)">
+                <div class="form-field">
+                    <input class="form-field-text" type="text" placeholder="Your name..." id="name">
+                </div>
+
+                <div class="form-field">
+                    <textarea class="form-field-text" placeholder="Write your message here..." rows="6" id="message"></textarea>
+                </div>
+
+                <button class="form-button" type="submit" id="form-button">Send message via whatsapp</button>
+            </form>
+        </section>
+
+        <section>
+
+        </section><footer class="footer">
+            <ul class="menu">
+                <li>
+                    <a href="https://github.com/LoganGabe" target="_blank" class="icon-redirect"><img src="./img/github.webp" alt="Github Link" class="icon" onclick=""></a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/gabriel-logan-dias-porto/" target="_blank" class="icon-redirect"><img src="./img/Linkedin.webp" alt="linkedin Link" class="icon" onclick=""></a>
+                </li>
+            </ul>
+
+            <p class="menu-link">© 2025 Gabriel Logan Dias Porto. All rights reserved.</p>
+            
+        </footer>
+
+        <script src="./script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    </body>
+</html>
